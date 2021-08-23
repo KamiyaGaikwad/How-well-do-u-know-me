@@ -25,8 +25,16 @@ var Q3 = {
   q : "Whats my favourite color? ",
   ans : "blue",
 }
+var Q4 = {
+  q : "Where do i live? ",
+  ans : "nagpur",
+}
+var Q5 = {
+  q : "Whats my favourite food? ",
+  ans : "vadapav",
+}
 
-var set = [Q1,Q2,Q3]
+var set = [Q1,Q2,Q3,Q4,Q5]
 
 for(var i=0;i<set.length;i++){
   var user = Readlinesync.question(set[i].q);
